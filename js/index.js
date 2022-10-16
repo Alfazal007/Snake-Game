@@ -116,6 +116,26 @@ window.addEventListener('keydown', e => {
             inputDir.x = 1;
             inputDir.y = 0;
             break;
+            case "w":
+                console.log("Arrow Up")
+                inputDir.x = 0;
+                inputDir.y = -1;
+                break;
+            case "s":
+                console.log("Arrow Down")
+                inputDir.x = 0;
+                inputDir.y = 1;
+                break;
+            case "a":
+                console.log("Arrow Left")
+                inputDir.x = -1;
+                inputDir.y = 0;
+                break;
+            case "d":
+                console.log("Arrow Right")
+                inputDir.x = 1;
+                inputDir.y = 0;
+                break;
         default:
             break;
     }
